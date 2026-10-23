@@ -182,27 +182,9 @@ void menuUsuario(ArbolSplay& arbol) {
     } while (opcion != 0);
 }
 
-// ================= Datos de prueba =================
-
-void cargarDatosIniciales(ArbolSplay& arbol) {
-    arbol.insertar("Silla ergonomica", "Muebles", "Ikea", 85000, "Silla de oficina con soporte lumbar");
-    arbol.insertar("Laptop 15", "Computadoras", "Lenovo", 450000, "Laptop con 16 GB de RAM");
-    arbol.insertar("Tenis deportivos", "Calzado", "Nike", 60000, "Tenis para correr");
-    arbol.insertar("Escritorio", "Muebles", "Ikea", 120000, "Escritorio de madera 120 cm");
-    arbol.insertar("Monitor 27", "Computadoras", "Samsung", 180000, "Monitor 27 pulgadas 144 Hz");
-    arbol.insertar("Botas", "Calzado", "Caterpillar", 75000, "Botas de cuero");
-    arbol.insertar("Sofa", "Muebles", "Ashley", 350000, "Sofa de tres plazas");
-    arbol.insertar("PC de escritorio", "Computadoras", "Dell", 520000, "Torre con procesador de 8 nucleos");
-    arbol.insertar("Sandalias", "Calzado", "Adidas", 25000, "Sandalias de playa");
-    arbol.insertar("Estante", "Muebles", "Ikea", 55000, "Estante de 5 niveles");
-    arbol.insertar("Mesa de comedor", "Muebles", "Ashley", 230000, "Mesa para 6 personas");
-    arbol.insertar("Tablet 10", "Computadoras", "Lenovo", 150000, "Tablet de 10 pulgadas");
-}
-
 
 int main() {
     ArbolSplay arbol;
-    cargarDatosIniciales(arbol);
 
     int opcion;
     do {
